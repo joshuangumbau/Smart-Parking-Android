@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "553094610887",
+    "firebase_url": "https://parking-system-v2-default-rtdb.firebaseio.com",
+    "project_id": "parking-system-v2",
+    "storage_bucket": "parking-system-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553094610887:android:131b55e356dcdb203823e2",
+        "android_client_info": {
+          "package_name": "com.dominicsilveira.parkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553094610887-l4oa7bahv5brb9nrjn5qrp279p72t68q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUoJVC7y_1PTb2Lct47yP4COAuTCIiBwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553094610887-l4oa7bahv5brb9nrjn5qrp279p72t68q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
