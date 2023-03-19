@@ -164,7 +164,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:gravity="left"
-                                    android:text="Rs.15/hr"
+                                    android:text="Ksh.15/hr"
                                     android:textColor="#000" />
 
                                 <TextView
@@ -174,7 +174,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:gravity="left"
-                                    android:text="Rs.15/hr"
+                                    android:text="Ksh.15/hr"
                                     android:textColor="#000" />
 
                                 <TextView
@@ -184,7 +184,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:gravity="left"
-                                    android:text="Rs.15/hr"
+                                    android:text="Ksh.15/hr"
                                     android:textColor="#000" />
 
                                 <TextView
@@ -194,7 +194,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:gravity="left"
-                                    android:text="Rs.15/hr"
+                                    android:text="Ksh.15/hr"
                                     android:textColor="#000" />
 
                                 <TextView
@@ -204,7 +204,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:gravity="left"
-                                    android:text="Rs.15/hr"
+                                    android:text="Ksh.15/hr"
                                     android:textColor="#000" />
                         </LinearLayout>
                 </LinearLayout>

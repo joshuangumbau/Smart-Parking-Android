@@ -44,35 +44,35 @@ public class AboutMeActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("About Me");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        dominicBtn=findViewById(R.id.dominicBtn);
-        joelBtn=findViewById(R.id.joelBtn);
-        leninBtn=findViewById(R.id.leninBtn);
+//        dominicBtn=findViewById(R.id.dominicBtn);
+//        joelBtn=findViewById(R.id.joelBtn);
+//        leninBtn=findViewById(R.id.leninBtn);
     }
 
     private void attachListeners() {
-        dominicBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Uri uri = Uri.parse("https://www.linkedin.com/in/dms24081999/"); // missing 'http://' will cause crashed
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
-            }
-        });
-        joelBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Uri uri = Uri.parse("https://www.linkedin.com/in/joel-monis-146b6016b/"); // missing 'http://' will cause crashed
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
-            }
-        });
-        leninBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Uri uri = Uri.parse("https://www.linkedin.com/in/lenin-bardeskar/"); // missing 'http://' will cause crashed
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
-            }
-        });
+//        dominicBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Uri uri = Uri.parse("https://www.linkedin.com/in/dms24081999/"); // missing 'http://' will cause crashed
+//                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+//                startActivity(intent);
+//            }
+//        });
+//        joelBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Uri uri = Uri.parse("https://www.linkedin.com/in/joel-monis-146b6016b/"); // missing 'http://' will cause crashed
+//                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+//                startActivity(intent);
+//            }
+//        });
+//        leninBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Uri uri = Uri.parse("https://www.linkedin.com/in/lenin-bardeskar/"); // missing 'http://' will cause crashed
+//                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+//                startActivity(intent);
+//            }
+//        });
     }
 }
