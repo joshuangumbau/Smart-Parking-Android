@@ -103,7 +103,7 @@ public class AddPositionActivity extends AppCompatActivity implements OnMapReady
         nachoTextView = findViewById(R.id.et_tag);
         loadFromFile = findViewById(R.id.loadFromFile);
 
-        slotNoString.add("Slot-01");
+        slotNoString.add("Slot-01, Slot-02, Slot-03, Slot-04, Slot-05");
         nachoTextView.setText(slotNoString);
         nachoTextView.addChipTerminator('\n', ChipTerminatorHandler.BEHAVIOR_CHIPIFY_ALL);
     }

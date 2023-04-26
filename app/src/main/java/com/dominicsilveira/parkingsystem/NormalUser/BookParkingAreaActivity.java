@@ -232,7 +232,7 @@ public class BookParkingAreaActivity extends AppCompatActivity {
                                         parkingArea.allocateSpace();
                                         db.getReference("ParkingAreas").child(bookingSlot.placeID).setValue(parkingArea);
                                         String note ="Payment for ".concat(bookingSlot.placeID).concat(" and number ").concat(bookingSlot.numberPlate);
-                                        Boolean upi=upiPayment.payUsingUpi(String.valueOf(bookingSlot.amount), "micsilveira111@oksbi", "Michael", note,BookParkingAreaActivity.this);
+                                        Boolean upi=upiPayment.payUsingUpi(String.valueOf(bookingSlot.amount), "equity@joshua", "joshua", note,BookParkingAreaActivity.this);
 //                                        Boolean upi=upiPayment.payUsingUpi(String.valueOf(bookingSlot.amount), upiInfo.upiId, upiInfo.upiName, note,BookParkingAreaActivity.this);
 //                                        saveData();
                                     }else{
