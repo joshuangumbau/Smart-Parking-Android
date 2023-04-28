@@ -32,6 +32,7 @@
 
     <!--Home Screen Widget Start-->
     <dimen name="widget_background_corner_radius">10dp</dimen>
+    <dimen name="buy_button_height">48dp</dimen>
     <dimen name="widget_button_background_corner_radius">36dp</dimen>
     <dimen name="beverage_button_height">74dp</dimen>
     <dimen name="widget_button_image_size">24dp</dimen>
